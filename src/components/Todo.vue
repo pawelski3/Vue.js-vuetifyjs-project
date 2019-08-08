@@ -1,12 +1,15 @@
 <template>
-  <div style="max-height:95vh; outline:2px solid green, overflow:hidden">
+  <div style="max-height:95vh;">
     <v-container fluid fill-height pl-0 pr-0 pb-0 pt-0>
       <v-layout row align-space-between justify-space-between>
         <v-flex lg3 pr-2>
           <Lists />
         </v-flex>
 
-        <v-flex lg6 pr-2 pl-2>Tasks</v-flex>
+        <v-flex lg6 pr-2 pl-2>
+          
+          <Tasks/>
+        </v-flex>
 
         <v-flex lg3 pl-2>Options</v-flex>
       </v-layout>
@@ -27,8 +30,9 @@
 
 <script>
 import Lists from "./Lists";
+import Tasks from "./Tasks";
 export default {
   name: "todo",
-  components: { Lists }
+  components: { Lists, Tasks }
 };
 </script>

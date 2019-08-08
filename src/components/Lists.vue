@@ -1,6 +1,6 @@
 <template>
 
-  <v-navigation-drawer permanent style="max-height:100vh;outline:2px solid yellow;width: 100%;">
+  <v-navigation-drawer permanent style="max-height:100vh;width: 100%;overflow: hidden;">
     <v-toolbar color="blue" dark>
       <v-toolbar-title>Your lists</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -22,7 +22,7 @@
       </v-list-item>
     </v-list>
 <v-divider></v-divider>
- <v-list style="height: calc(100% - 128px); overflow-y: scroll">
+ <v-list style="height: calc(100% - 155px); overflow-y: scroll">
   <v-list-item
     v-for="(list,key) in lists"
     v-bind:key="key"
