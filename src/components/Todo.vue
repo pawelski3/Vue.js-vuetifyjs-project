@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-container fill-height>
+  <div style="max-height:95vh; outline:2px solid green, overflow:hidden">
+    <v-container fluid fill-height pl-0 pr-0 pb-0 pt-0>
       <v-layout row align-space-between justify-space-between>
         <v-flex lg3 pr-2>
           <Lists />
@@ -12,8 +12,9 @@
       </v-layout>
     </v-container>
     <v-footer height="auto" color="indigo">
-      <v-layout justify-center>
-        <v-flex indigo white--text text-xs-center>
+     
+        <v-layout justify-center>
+           <v-flex indigo white--text text-xs-center class="text-center">
           &copy;2019
           <strong>pawelgawel.c0.pl</strong>
         </v-flex>

@@ -1,13 +1,6 @@
 <template>
-  <v-navigation-drawer
-    fluid
-    permanent
-    style="width:100%;"
-    pl-0
-    pr-0
-    pb-0
-    pt-0
-  >
+
+  <v-navigation-drawer permanent style="max-height:100vh;outline:2px solid yellow;width: 100%;">
     <v-toolbar color="blue" dark>
       <v-toolbar-title>Your lists</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -29,7 +22,7 @@
       </v-list-item>
     </v-list>
 <v-divider></v-divider>
-<v-list>
+ <v-list style="height: calc(100% - 128px); overflow-y: scroll">
   <v-list-item
     v-for="(list,key) in lists"
     v-bind:key="key"
@@ -62,6 +55,73 @@ export default {
         tasks:12
       },
       {
+        id:1,
+        title:"List",
+        tasks:45
+      },
+    {
+        id:1,
+        title:"List",
+        tasks:66
+      },
+      {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+       {
+        id:1,
+        title:"List",
+        tasks:12
+      },
+      {
+        id:1,
+        title:"List",
+        tasks:45
+      },
+    {
+        id:1,
+        title:"List",
+        tasks:66
+      },
+      {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+ 
+      {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+       {
+        id:1,
+        title:"List",
+        tasks:45
+      },
+    {
+        id:1,
+        title:"List",
+        tasks:66
+      },
+      {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+       {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+ 
+      {
+        id:1,
+        title:"List",
+        tasks:3
+      },
+       {
         id:1,
         title:"List",
         tasks:45
