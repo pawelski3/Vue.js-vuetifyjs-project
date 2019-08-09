@@ -11,7 +11,9 @@
           <Tasks/>
         </v-flex>
 
-        <v-flex lg3 pl-2>Options</v-flex>
+        <v-flex lg3 pl-2>
+        <OptionsBar/>
+        </v-flex>
       </v-layout>
     </v-container>
     <v-footer height="auto" color="indigo">
@@ -31,8 +33,9 @@
 <script>
 import Lists from "./Lists";
 import Tasks from "./Tasks";
+import OptionsBar from "./OptionsBar";
 export default {
   name: "todo",
-  components: { Lists, Tasks }
+  components: { Lists, Tasks, OptionsBar}
 };
 </script>
