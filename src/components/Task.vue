@@ -1,5 +1,7 @@
 <template>
+
   <v-list-item @click.prevent="toggle(index)">
+    
     <v-list-item-action>
       <v-btn>
         <v-icon color="pink">edit</v-icon>

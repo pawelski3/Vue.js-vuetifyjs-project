@@ -1,5 +1,7 @@
 <template>
+
   <v-card style="max-height:95vh;overflow:hidden;">
+    
     <v-toolbar color="blue" dark>
       <v-toolbar-title>Tilte of the list</v-toolbar-title>
 
